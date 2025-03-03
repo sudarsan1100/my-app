@@ -1,0 +1,27 @@
+👉 **Ye README file tumhe GitHub pe edit karni hai ya VS Code/Notepad++ me likh ke push karni hai.**  
+
+---  
+
+# **Step 2: Code Upload Karo**  
+Ab tum apne **app ka code** upload kar sakte ho. Agar **Jetpack Compose me app bana rahe ho** to **yahi code upload karna hoga:**  
+
+### **2️⃣ Code Structure:**  
+📂 **my-app/**  
+┣ 📂 **app/** (Main project folder)  
+┣ 📂 **gradle/**  
+┣ 📜 `build.gradle`  
+┣ 📜 `AndroidManifest.xml`  
+┣ 📜 `MainActivity.kt`  
+┣ 📜 `README.md`  
+┣ 📜 `LICENSE`  
+┣ 📜 `.gitignore`  
+
+### **Code Upload Karne Ka Tarika:**  
+1. **Agar Local Machine Pe Code Hai, To Git Se Push Karo:**  
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/sudarsan1100/my-app.git
+   git push -u origin main
